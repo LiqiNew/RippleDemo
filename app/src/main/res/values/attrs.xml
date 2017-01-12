@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RippleAttrs">
+        <!--图片-->
+        <attr name="image" format="reference"/>
+        <!--false是深浅计算，true是浅深计算-->
+        <attr name="sqNot" format="boolean"/>
+        <!--是否执行效果-->
+        <attr name="starWhat" format="boolean"/>
+        <!--圆边颜色设置-->
+        <attr name="roundRimColor" format="color"/>
+        <!--圆边大小设置-->
+        <attr name="roundRimSize" format="integer"/>
+    </declare-styleable>
+</resources>
